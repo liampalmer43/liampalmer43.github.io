@@ -15,7 +15,12 @@ const IMAGE_STYLE = {
   borderRadius: 4,
 };
 
+const IMAGE_CONTAINER_STYLE = {
+  width: '45%',
+}
+
 const HEADING_TEXT_STYLE = {
+  width: '55%',
   paddingLeft: 16,
   fontFamily: 'monospace',
   fontSize: 18,
@@ -37,8 +42,10 @@ class InternshipPost extends Component {
 
     return (
       <div style={STYLE}>
-        <div className="flexCenter">
-          <img src={imagePath} alt={companyName} style={IMAGE_STYLE} />
+        <div className="flex">
+          <div style={IMAGE_CONTAINER_STYLE} className="flexReverse">
+            <img src={imagePath} alt={companyName} style={IMAGE_STYLE} />
+          </div>
           <div style={HEADING_TEXT_STYLE} className="flexSpaceAroundVertical">
             <div>{companyName}</div>
             <div>{officeLocation}</div>

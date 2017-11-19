@@ -5,6 +5,8 @@ import uber_logo from './docs/uber_logo.png';
 import adroll_logo from './docs/adroll_logo.jpg';
 import oracle_logo from './docs/oracle_logo.png';
 import sidefx_logo from './docs/sidefx_logo.png';
+
+import ScrollToTopOnMount from './ScrollToTopOnMount';
 import InternshipPost from './InternshipPost.js';
 
 const INTERNSHIPS = [
@@ -68,6 +70,7 @@ class Internships extends Component {
     return (
       <div className="flexAlignCenterVertical">
         {INTERNSHIPS.map(internship => <InternshipPost {...internship} key={internship.companyName} />)}
+        <ScrollToTopOnMount />
       </div>
     );
   }

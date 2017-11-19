@@ -32,9 +32,18 @@ html , body {
     background: black;
 }
 
+.flex {
+  display: flex;
+}
+
 .flexCenter {
   display: flex;
   justify-content: center;
+}
+
+.flexReverse {
+  display: flex;
+  flex-direction: row-reverse;
 }
 
 .flexSpaceAroundVertical {
