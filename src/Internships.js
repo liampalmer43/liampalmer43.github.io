@@ -7,7 +7,7 @@ import oracle_logo from './docs/oracle_logo.png';
 import sidefx_logo from './docs/sidefx_logo.png';
 
 import ScrollToTopOnMount from './ScrollToTopOnMount';
-import InternshipPost from './InternshipPost.js';
+import ImageHeadingPost from './ImageHeadingPost.js';
 
 const INTERNSHIPS = [
   {
@@ -69,7 +69,12 @@ class Internships extends Component {
   render() {
     return (
       <div className="flexAlignCenterVertical">
-        {INTERNSHIPS.map(internship => <InternshipPost {...internship} key={internship.companyName} />)}
+        {INTERNSHIPS.map(internship =>
+          <ImageHeadingPost
+            textElements={[internship.companyName, internship.officeLocation, internship.timeline]}
+            imagePath={internship.imagePath}
+            contributions={internship.contributions}
+            key={internship.companyName} />)}
         <ScrollToTopOnMount />
       </div>
     );
