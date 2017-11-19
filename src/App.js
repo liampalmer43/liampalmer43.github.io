@@ -5,14 +5,16 @@ import './App.css';
 import MLPaper from './MLPaper.js';
 import NavBar from './NavBar.js';
 import Internships from './Internships';
+import Volleyball from './Volleyball';
 
 class App extends Component {
   render() {
     return (
       <div>
         <NavBar />
-        <Route exact path='/Internships' component={Internships} />
-        <Route exact path='/FaceRecognitionLiteratureSurvey' component={MLPaper} />
+        <Route exact path='/internships' component={Internships} />
+        <Route exact path='/volleyball' component={Volleyball} />
+        <Route exact path='/faceRecognitionLiteratureSurvey' component={MLPaper} />
       </div>
     );
   }

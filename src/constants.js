@@ -1,10 +1,12 @@
 export const TABS = [
-  "Internships",
-  "Face Recognition Survey",
+  "INTERNSHIPS",
+  "VOLLEYBALL",
+  "ML PAPER",
 ];
 
 export const TAB_TO_END_POINT = {
-  "Internships": "Internships",
-  "Face Recognition Survey": "FaceRecognitionLiteratureSurvey"
+  "INTERNSHIPS": "internships",
+  "VOLLEYBALL": "volleyball",
+  "ML PAPER": "faceRecognitionLiteratureSurvey"
 };
 

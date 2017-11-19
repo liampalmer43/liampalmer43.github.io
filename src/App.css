@@ -58,14 +58,8 @@ html , body {
   align-items: center;
 }
 
-.navBar {
-  background-color: #677284;
-}
-
-.navBarElement {
-  font-family: system-ui;
-  font-size: 20px;
-  color: #a2b5d3;
-  padding: 10px;
+.imageBorder {
+  padding: 1px;
+  border: 1px solid #021a40;
 }
 
