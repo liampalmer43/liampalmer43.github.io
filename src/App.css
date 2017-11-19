@@ -1,0 +1,62 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+
+html , body {
+    background: black;
+}
+
+.flexCenter {
+  display: flex;
+  justify-content: center;
+}
+
+.flexSpaceAroundVertical {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.flexAlignCenterVertical {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.navBar {
+  background-color: #677284;
+}
+
+.navBarElement {
+  font-family: system-ui;
+  font-size: 20px;
+  color: #a2b5d3;
+  padding: 10px;
+}
+
