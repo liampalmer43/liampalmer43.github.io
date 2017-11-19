@@ -1,10 +1,19 @@
 {
-  "main.css": "static/css/main.1f5568b7.css",
-  "main.css.map": "static/css/main.1f5568b7.css.map",
-  "main.js": "static/js/main.792fb6e4.js",
-  "main.js.map": "static/js/main.792fb6e4.js.map",
+  "main.css": "static/css/main.afc419c7.css",
+  "main.css.map": "static/css/main.afc419c7.css.map",
+  "main.js": "static/js/main.e1f03944.js",
+  "main.js.map": "static/js/main.e1f03944.js.map",
   "static/media/CS489_ML_Report.pdf": "static/media/CS489_ML_Report.ffb096bc.pdf",
+  "static/media/KWClassicW16.jpg": "static/media/KWClassicW16.7b06ae9b.jpg",
   "static/media/adroll_logo.jpg": "static/media/adroll_logo.17227a86.jpg",
+  "static/media/cbva.jpg": "static/media/cbva.c6df7a8e.jpg",
+  "static/media/cyprus1.jpg": "static/media/cyprus1.47f3cd9e.jpg",
+  "static/media/cyprus2.jpg": "static/media/cyprus2.87e387df.jpg",
+  "static/media/intramuralF16.jpeg": "static/media/intramuralF16.cc4a9f20.jpeg",
+  "static/media/intramuralW16.jpeg": "static/media/intramuralW16.2012354b.jpeg",
+  "static/media/intramuralW17.jpg": "static/media/intramuralW17.92889d85.jpg",
   "static/media/oracle_logo.png": "static/media/oracle_logo.3498e2d2.png",
-  "static/media/sidefx_logo.png": "static/media/sidefx_logo.03a55c3e.png"
+  "static/media/sidefx_logo.png": "static/media/sidefx_logo.03a55c3e.png",
+  "static/media/u18.jpeg": "static/media/u18.6faea2c5.jpeg",
+  "static/media/u22.jpeg": "static/media/u22.355584f3.jpeg"
 }
