@@ -3,7 +3,7 @@ This project was originally cloned from [Create React App](https://github.com/fa
 
 ### Local Development
 To develop and test this locally:
-- Run ```npm start```
+- Run ```npm run start```
 - This will start a local server available at http://localhost:3000
 
 ### Pushing
@@ -13,7 +13,7 @@ To push project changes (this WILL NOT cause changes to the website served at ht
 - Run ```git push origin master```
 
 To push built changes (this WILL cause changes to the website served at https://liampalmer43.github.io/me):
-- Run ```npm deploy```
+- Run ```npm run deploy```
 - This makes use of the react-scripts npm package to build the project into the directory /build and the gh-pages npm package to push the built code to https://github.com/liampalmer43/me.git on branch gh-pages.
 
 ### Special Considerations and Explanations
