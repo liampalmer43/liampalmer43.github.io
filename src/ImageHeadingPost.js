@@ -13,8 +13,6 @@ const STYLE = {
 
 const LIST_ELEMENT_STYLE = {
   paddingBottom: 9,
-  fontFamily: 'Georgia, serif',
-  fontSize: 16,
 };
 
 const LIST_STYLE = {
@@ -32,7 +30,7 @@ class ImageHeadingPost extends Component {
           imageWidth={imageWidth}
           imageHeight={imageHeight}
           textElements={textElements} />
-        <ul style={LIST_STYLE}>
+        <ul style={LIST_STYLE} className="bodyText">
           {contributions.map((contribution, index) => <li key={index} style={LIST_ELEMENT_STYLE}>{contribution}</li>)}
         </ul>
       </div>

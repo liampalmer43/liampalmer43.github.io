@@ -10,7 +10,6 @@ const STYLE = {
   fontFamily: 'monospace',
   fontSize: 18,
   lineHeight: '30px',
-  textAlign: 'center',
 };
 
 const IMAGE_STYLE = {
@@ -22,20 +21,33 @@ const IMAGE_STYLE = {
 
 class ImageBodyPost extends Component {
   render() {
-    const { headingElements, imagePaths } = this.props;
+    const { headingElements, headingPoints, imagePaths } = this.props;
 
     return (
       <div style={STYLE}>
-        {headingElements.map(heading => <div key={heading}>{heading}</div>)}
-        {imagePaths.map(imagePath => <img src={imagePath} key={imagePath} alt={imagePath} style={IMAGE_STYLE} />)}
+        <div className="centerText">{headingElements.map(heading => <div key={heading}>{heading}</div>)}</div>
+        {headingPoints &&
+          <ul className="bodyText">
+            {headingPoints.map(point => <li key={point}>{point}</li>)}
+          </ul>}
+        <div className="flexAlignCenterVertical">
+          {imagePaths.map(imagePath => <img src={imagePath} key={imagePath} alt={imagePath} style={IMAGE_STYLE} />)}
+        </div>
       </div>
     );
   }
 }
 
 ImageBodyPost.propTypes = {
-  headingElements: PropTypes.arrayOf(PropTypes.string).isRequired,
-  imagePaths: PropTypes.arrayOf(PropTypes.string).isRequired
+  headingElements: PropTypes.arrayOf(PropTypes.string),
+  headingPoints: PropTypes.arrayOf(PropTypes.string),
+  imagePaths: PropTypes.arrayOf(PropTypes.string),
+}
+
+ImageBodyPost.defaultProps = {
+  headingElements: [],
+  headingPoints: [],
+  imagePaths: [],
 }
 
 export default ImageBodyPost

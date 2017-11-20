@@ -31,6 +31,20 @@ html , body {
     background: black;
 }
 
+.headingText {
+  font-family: monospace;
+  font-size: 18px;
+}
+
+.bodyText {
+  font-family: Georgia, serif;
+  font-size: 16px;
+}
+
+.centerText {
+  text-align: center;
+}
+
 .flex {
   display: flex;
 }

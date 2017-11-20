@@ -12,8 +12,6 @@ const IMAGE_CONTAINER_STYLE = {
 const HEADING_TEXT_STYLE = {
   width: '55%',
   paddingLeft: 16,
-  fontFamily: 'monospace',
-  fontSize: 18,
 };
 
 class ImageHeading extends Component {
@@ -25,7 +23,7 @@ class ImageHeading extends Component {
         <div style={IMAGE_CONTAINER_STYLE} className="flexReverse">
           <img src={imagePath} alt={imagePath} style={{...IMAGE_STYLE, width: imageWidth, height: imageHeight}} />
         </div>
-        <div style={HEADING_TEXT_STYLE} className="flexSpaceAroundVertical">
+        <div style={HEADING_TEXT_STYLE} className="flexSpaceAroundVertical headingText">
           {textElements.map(element => <div key={element}>{element}</div>)}
         </div>
       </div>
