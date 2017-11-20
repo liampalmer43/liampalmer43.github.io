@@ -1,8 +1,8 @@
 {
   "main.css": "static/css/main.afc419c7.css",
   "main.css.map": "static/css/main.afc419c7.css.map",
-  "main.js": "static/js/main.703528b1.js",
-  "main.js.map": "static/js/main.703528b1.js.map",
+  "main.js": "static/js/main.e2c61bdc.js",
+  "main.js.map": "static/js/main.e2c61bdc.js.map",
   "static/media/CS489_ML_Report.pdf": "static/media/CS489_ML_Report.ffb096bc.pdf",
   "static/media/KWClassicW16.jpg": "static/media/KWClassicW16.7b06ae9b.jpg",
   "static/media/Liam_Resume.pdf": "static/media/Liam_Resume.4e84e63a.pdf",
@@ -17,5 +17,6 @@
   "static/media/oracle_logo.png": "static/media/oracle_logo.3498e2d2.png",
   "static/media/sidefx_logo.png": "static/media/sidefx_logo.03a55c3e.png",
   "static/media/u18.jpeg": "static/media/u18.6faea2c5.jpeg",
-  "static/media/u22.jpeg": "static/media/u22.355584f3.jpeg"
+  "static/media/u22.jpeg": "static/media/u22.355584f3.jpeg",
+  "static/media/uwaterloo_logo.gif": "static/media/uwaterloo_logo.d9cda810.gif"
 }
