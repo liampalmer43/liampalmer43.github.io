@@ -1,8 +1,10 @@
 {
   "main.css": "static/css/main.2e3de6f7.css",
   "main.css.map": "static/css/main.2e3de6f7.css.map",
-  "main.js": "static/js/main.67fa2f6f.js",
-  "main.js.map": "static/js/main.67fa2f6f.js.map",
+  "main.js": "static/js/main.35316722.js",
+  "main.js.map": "static/js/main.35316722.js.map",
+  "static/media/18U_action.jpg": "static/media/18U_action.925d07f4.jpg",
+  "static/media/18U_podium.jpg": "static/media/18U_podium.70ec698f.jpg",
   "static/media/CS489_ML_Report.pdf": "static/media/CS489_ML_Report.ffb096bc.pdf",
   "static/media/KWClassicW16.jpg": "static/media/KWClassicW16.7b06ae9b.jpg",
   "static/media/Liam_Resume.pdf": "static/media/Liam_Resume.4e84e63a.pdf",
@@ -14,6 +16,7 @@
   "static/media/giddit.png": "static/media/giddit.fa098301.png",
   "static/media/hack_harvard.jpg": "static/media/hack_harvard.f1602132.jpg",
   "static/media/hack_harvard1.jpeg": "static/media/hack_harvard1.8fae5378.jpeg",
+  "static/media/hackohio.jpg": "static/media/hackohio.bdd04315.jpg",
   "static/media/holyoke1.jpeg": "static/media/holyoke1.c11ed16c.jpeg",
   "static/media/holyoke2.jpeg": "static/media/holyoke2.5e1500f5.jpeg",
   "static/media/holyoke3.jpg": "static/media/holyoke3.1f8aaa4f.jpg",
@@ -23,8 +26,11 @@
   "static/media/myo.png": "static/media/myo.d005e62f.png",
   "static/media/oracle_logo.png": "static/media/oracle_logo.3498e2d2.png",
   "static/media/picto_story.png": "static/media/picto_story.2e8816ce.png",
+  "static/media/psu.jpg": "static/media/psu.5de6aacf.jpg",
+  "static/media/psu2.jpg": "static/media/psu2.e17acd71.jpg",
   "static/media/sidefx_logo.png": "static/media/sidefx_logo.03a55c3e.png",
   "static/media/u18.jpeg": "static/media/u18.6faea2c5.jpeg",
   "static/media/u22.jpeg": "static/media/u22.355584f3.jpeg",
+  "static/media/u24.jpg": "static/media/u24.1ffa61ff.jpg",
   "static/media/uwaterloo_logo.gif": "static/media/uwaterloo_logo.d9cda810.gif"
 }
