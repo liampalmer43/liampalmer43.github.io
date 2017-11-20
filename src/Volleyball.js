@@ -8,7 +8,10 @@ import intramuralF16 from './docs/intramuralF16.jpeg';
 import KWClassicW16 from './docs/KWClassicW16.jpg';
 import cbva from './docs/cbva.jpg';
 import u18 from './docs/u18.jpeg';
+import u18_podium from './docs/18U_podium.jpg';
+import u18_action from './docs/18U_action.jpg';
 import u22 from './docs/u22.jpeg';
+import u24 from './docs/u24.jpg';
 
 import ScrollToTopOnMount from './ScrollToTopOnMount';
 import ImageBodyPost from './ImageBodyPost';
@@ -45,6 +48,12 @@ const VOLLEYBALL = [
     imagePaths: [intramuralW16]
   },
   {
+    title: 'U24 Provincial (Ontario) Beach Volleyball Gold Medalist',
+    eventLocation: 'Toronto, Canada',
+    timeline: 'Summer 2015',
+    imagePaths: [u24]
+  },
+  {
     title: 'U22 Canadian Beach Volleyball Gold Medalist',
     eventLocation: 'Toronto, Canada',
     timeline: 'Summer 2014',
@@ -60,7 +69,7 @@ const VOLLEYBALL = [
     title: 'U18 Canadian Beach Volleyball Gold Medalist',
     eventLocation: 'Vancouver, Canada',
     timeline: 'Summer 2013',
-    imagePaths: [u18]
+    imagePaths: [u18_podium, u18_action, u18]
   },
 ];
 

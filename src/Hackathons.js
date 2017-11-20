@@ -8,6 +8,9 @@ import holyoke2 from './docs/holyoke2.jpeg';
 import holyoke3 from './docs/holyoke3.jpg';
 import giddit from './docs/giddit.png';
 import myo from './docs/myo.png';
+import hackohio from './docs/hackohio.jpg';
+import psu from './docs/psu.jpg';
+import psu2 from './docs/psu2.jpg';
 
 import ScrollToTopOnMount from './ScrollToTopOnMount';
 import ImageBodyPost from './ImageBodyPost';
@@ -47,7 +50,16 @@ const HACKATHONS = [
       'Various gestures activated a variety of drawing utensils.',
       'Used C++, Myo Armband SDK for Mac'
     ],
-    imagePaths: [myo]
+    imagePaths: [myo, hackohio]
+  },
+  {
+    title: 'Hack PSU',
+    university: 'Pennsylvania State University',
+    eventLocation: 'State College, PA',
+    timeline: 'Fall 2016',
+    projectPoints: [
+    ],
+    imagePaths: [psu, psu2]
   },
 ];
 
