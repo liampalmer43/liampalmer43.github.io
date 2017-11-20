@@ -6,15 +6,22 @@ import MLPaper from './MLPaper.js';
 import Resume from './Resume.js';
 import Transcript from './Transcript.js';
 import NavBar from './NavBar.js';
+import Research from './Research.js';
 import Internships from './Internships';
 import Volleyball from './Volleyball';
+
+const SPACE = {
+  minHeight: 70
+};
 
 class App extends Component {
   render() {
     return (
       <div>
         <NavBar />
+        <div style={SPACE} />
         <Route exact path='/internships' component={Internships} />
+        <Route exact path='/research' component={Research} />
         <Route exact path='/volleyball' component={Volleyball} />
         <Route exact path='/resume' component={Resume} />
         <Route exact path='/transcript' component={Transcript} />

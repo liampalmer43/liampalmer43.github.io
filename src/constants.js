@@ -1,5 +1,6 @@
 export const TABS = [
   "INTERNSHIPS",
+  "RESEARCH",
   "VOLLEYBALL",
   "RESUME",
   "TRANSCRIPT",
@@ -8,6 +9,7 @@ export const TABS = [
 
 export const TAB_TO_END_POINT = {
   "INTERNSHIPS": "internships",
+  "RESEARCH": "research",
   "VOLLEYBALL": "volleyball",
   "RESUME": "resume",
   "TRANSCRIPT": "transcript",

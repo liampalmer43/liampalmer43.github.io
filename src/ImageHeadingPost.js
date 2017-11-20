@@ -5,7 +5,7 @@ import ImageHeading from './ImageHeading.js';
 
 const STYLE = {
   backgroundColor: '#9c9fa3',
-  width: 600,
+  width: 700,
   margin: 15,
   padding: '17px 10px 8px 10px',
   borderRadius: 7,
@@ -23,15 +23,17 @@ const LIST_STYLE = {
 
 class ImageHeadingPost extends Component {
   render() {
-    const { textElements, contributions, imagePath } = this.props;
+    const { textElements, contributions, imagePath, imageWidth, imageHeight } = this.props;
 
     return (
       <div style={STYLE}>
         <ImageHeading
           imagePath={imagePath}
+          imageWidth={imageWidth}
+          imageHeight={imageHeight}
           textElements={textElements} />
         <ul style={LIST_STYLE}>
-          {contributions.map(contribution => <li key={contribution} style={LIST_ELEMENT_STYLE}>{contribution}</li>)}
+          {contributions.map((contribution, index) => <li key={index} style={LIST_ELEMENT_STYLE}>{contribution}</li>)}
         </ul>
       </div>
     );
@@ -40,7 +42,7 @@ class ImageHeadingPost extends Component {
 
 ImageHeadingPost.propTypes = {
   textElements: PropTypes.arrayOf(PropTypes.string).isRequired,
-  contributions: PropTypes.arrayOf(PropTypes.string).isRequired,
+  contributions: PropTypes.arrayOf(PropTypes.any).isRequired,
   imagePath: PropTypes.string.isRequired,
   imageWidth: PropTypes.number,
   imageHeight: PropTypes.number

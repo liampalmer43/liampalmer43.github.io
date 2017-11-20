@@ -11,7 +11,7 @@ import u18 from './docs/u18.jpeg';
 import u22 from './docs/u22.jpeg';
 
 import ScrollToTopOnMount from './ScrollToTopOnMount';
-import VolleyballPost from './VolleyballPost.js';
+import ImageBodyPost from './ImageBodyPost';
 
 const VOLLEYBALL = [
   {
@@ -68,7 +68,11 @@ class Volleyball extends Component {
   render() {
     return (
       <div className="flexAlignCenterVertical">
-        {VOLLEYBALL.map(volleyball => <VolleyballPost {...volleyball} key={volleyball.title + volleyball.timeline} />)}
+        {VOLLEYBALL.map(volleyball =>
+          <ImageBodyPost
+            headingElements={[volleyball.title, volleyball.eventLocation, volleyball.timeline]}
+            imagePaths={volleyball.imagePaths}
+            key={volleyball.title + volleyball.timeline} />)}
         <ScrollToTopOnMount />
       </div>
     );
