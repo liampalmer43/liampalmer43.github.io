@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 const STYLE = {
   backgroundColor: '#9c9fa3',
-  width: 600,
+  width: 700,
   margin: 15,
   padding: '17px 10px 8px 10px',
   borderRadius: 7,
@@ -14,6 +14,7 @@ const STYLE = {
 
 const IMAGE_STYLE = {
   maxWidth: '95%',
+  width: '95%',
   border: '1px solid #021a40',
   borderRadius: 10,
   margin: 5,
@@ -40,7 +41,7 @@ class ImageBodyPost extends Component {
 
 ImageBodyPost.propTypes = {
   headingElements: PropTypes.arrayOf(PropTypes.string),
-  headingPoints: PropTypes.arrayOf(PropTypes.string),
+  headingPoints: PropTypes.arrayOf(PropTypes.any),
   imagePaths: PropTypes.arrayOf(PropTypes.string),
 }
 

@@ -13,11 +13,10 @@ const NAV_STYLE = {
 
 const NAV_ELEMENT_STYLE = {
   fontFamily: 'monospace',
-  fontSize: 20,
+  fontSize: 16,
   color: '#a2b5d3',
   padding: 10,
   margin: 10,
-  backgroundColor: '#142e59',
   borderRadius: 10,
   textDecoration: 'none',
 };

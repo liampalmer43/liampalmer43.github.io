@@ -5,6 +5,7 @@ import './App.css';
 import MLPaper from './MLPaper.js';
 import Resume from './Resume.js';
 import Transcript from './Transcript.js';
+import Adventures from './Adventures.js';
 import NavBar from './NavBar.js';
 import Research from './Research.js';
 import Internships from './Internships.js';
@@ -21,6 +22,7 @@ class App extends Component {
       <div>
         <NavBar />
         <div style={SPACE} />
+        <Route exact path='/' component={Adventures} />
         <Route exact path='/internships' component={Internships} />
         <Route exact path='/research' component={Research} />
         <Route exact path='/volleyball' component={Volleyball} />

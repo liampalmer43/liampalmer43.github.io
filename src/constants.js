@@ -1,4 +1,5 @@
 export const TABS = [
+  "ADVENTURES",
   "INTERNSHIPS",
   "RESEARCH",
   "HACKATHONS",
@@ -9,6 +10,7 @@ export const TABS = [
 ];
 
 export const TAB_TO_END_POINT = {
+  "ADVENTURES": "",
   "INTERNSHIPS": "internships",
   "RESEARCH": "research",
   "HACKATHONS": "hackathons",
