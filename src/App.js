@@ -11,6 +11,7 @@ import Research from './Research.js';
 import Internships from './Internships.js';
 import Hackathons from './Hackathons.js';
 import Volleyball from './Volleyball.js';
+import Grades from './Grades.js';
 
 const SPACE = {
   minHeight: 70
@@ -30,6 +31,7 @@ class App extends Component {
         <Route exact path='/resume' component={Resume} />
         <Route exact path='/transcript' component={Transcript} />
         <Route exact path='/faceRecognitionLiteratureSurvey' component={MLPaper} />
+        <Route exact path='/grades' component={Grades} />
       </div>
     );
   }

@@ -7,6 +7,7 @@ export const TABS = [
   "RESUME",
   "TRANSCRIPT",
   "ML PAPER",
+  "GRADES",
 ];
 
 export const TAB_TO_END_POINT = {
@@ -17,6 +18,7 @@ export const TAB_TO_END_POINT = {
   "VOLLEYBALL": "volleyball",
   "RESUME": "resume",
   "TRANSCRIPT": "transcript",
-  "ML PAPER": "faceRecognitionLiteratureSurvey"
+  "ML PAPER": "faceRecognitionLiteratureSurvey",
+  "GRADES": "grades",
 };
 
